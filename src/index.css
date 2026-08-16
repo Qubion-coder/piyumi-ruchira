@@ -18,19 +18,19 @@
   --font-sans: "Inter", sans-serif;
 
   /* Primary accent — drives all `sage` classes */
-  --color-sage: #C4714A;
-  /* Terracotta */
+  --color-sage: #D81B60;
+  /* Pink */
 
   /* Background — drives all `paper` classes */
-  --color-paper: #F5EFE0;
-  /* Ivory */
+  --color-paper: #FDF4F7;
+  /* Light Pink */
 
   /* Extended boho palette */
-  --color-sand: #C9B99A;
-  --color-taupe: #9C8470;
-  --color-rust: #A84C2C;
-  --color-umber: #6B3D28;
-  --color-sienna: #8B4513;
+  --color-sand: #F8BBD0;
+  --color-taupe: #CE93D8;
+  --color-rust: #D4AF37;
+  --color-umber: #4A148C;
+  --color-sienna: #880E4F;
 }
 
 body {
