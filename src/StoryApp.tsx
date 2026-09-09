@@ -21,7 +21,7 @@ export default function StoryApp() {
   });
 
   useEffect(() => {
-    const weddingDate = new Date('2026-12-12T09:00:00').getTime();
+    const weddingDate = new Date('2026-12-11T08:00:00').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -169,7 +169,7 @@ export default function StoryApp() {
                   INVITE YOU TO CELEBRATE
                 </p>
                 <p className="text-[12px] sm:text-sm uppercase tracking-[0.2em] font-medium text-[#4A148C] mb-2 sm:mb-4">
-                  OUR
+                  THE
                 </p>
 
                 <h1 className="script text-7xl sm:text-[5.5rem] text-[#4A148C] mb-8 sm:mb-12 drop-shadow-sm font-normal">
@@ -180,27 +180,27 @@ export default function StoryApp() {
                   <p className="text-[13px] sm:text-[15px] uppercase tracking-widest text-[#4A148C] font-bold mb-2">DECEMBER</p>
                   <div className="flex items-center justify-center w-full gap-4">
                     <div className="flex-1 text-right border-y border-[#4A148C]/30 py-2">
-                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#4A148C] font-bold">SATURDAY</p>
+                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#4A148C] font-bold">FRIDAY</p>
                     </div>
-                    <p className="serif text-7xl sm:text-[4.5rem] font-medium text-[#4A148C] leading-none px-1">12</p>
+                    <p className="serif text-7xl sm:text-[4.5rem] font-medium text-[#4A148C] leading-none px-1">11</p>
                     <div className="flex-1 text-left border-y border-[#4A148C]/30 py-2">
-                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#4A148C] font-bold">AT 9:00 AM</p>
+                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#4A148C] font-bold">AT 8:00 AM</p>
                     </div>
                   </div>
                   <p className="text-[13px] sm:text-[15px] uppercase tracking-widest text-[#4A148C] font-bold mt-2">2026</p>
                 </div>
 
                 <a
-                  href="https://maps.app.goo.gl/RU45U8xe2TiZsmL98"
+                  href="https://maps.app.goo.gl/cinnamonlakesidecolombo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="space-y-2 mt-2 sm:mt-4 text-[#4A148C] hover:opacity-70 transition-opacity block"
                 >
                   <p className="text-[12px] sm:text-sm uppercase tracking-widest font-bold flex items-center justify-center gap-1.5">
                     <MapPin size={12} className="text-[#D81B60]" />
-                    SHANGRI-LA
+                    KING'S COURT
                   </p>
-                  <p className="text-[11px] sm:text-[12px] uppercase tracking-[0.15em] font-medium">COLOMBO</p>
+                  <p className="text-[11px] sm:text-[12px] uppercase tracking-[0.15em] font-medium">CINNAMON LAKESIDE</p>
                   <p className="text-[11px] sm:text-[12px] uppercase tracking-[0.15em] font-medium">COLOMBO, SRI LANKA</p>
                 </a>
 
@@ -242,8 +242,7 @@ export default function StoryApp() {
 
                   <div className="flex flex-col items-center w-full mb-8">
                     <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-3 font-bold">Bride's Parents</p>
-                    <p className="serif text-xl text-[#4A148C] leading-relaxed">Mrs. Kanthi Silva</p>
-                    <p className="serif text-xl text-[#4A148C] leading-relaxed">&amp; Mr. Nimal Silva</p>
+                    <p className="serif text-xl text-[#4A148C] leading-relaxed">Mr. &amp; Mrs. Perera</p>
                   </div>
 
                   {/* Elegant Divider */}
@@ -255,8 +254,7 @@ export default function StoryApp() {
 
                   <div className="flex flex-col items-center w-full">
                     <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-3 font-bold">Groom's Parents</p>
-                    <p className="serif text-xl text-[#4A148C] leading-relaxed">Mrs. Sriyani Perera</p>
-                    <p className="serif text-[19px] text-[#4A148C] leading-relaxed">&amp; Mr. Gamini<br />Perera</p>
+                    <p className="serif text-xl text-[#4A148C] leading-relaxed">Mr. &amp; Mrs. Alwis</p>
                   </div>
                 </div>
               </motion.div>
@@ -327,8 +325,8 @@ export default function StoryApp() {
               className="w-full h-[65dvh] shrink-0 relative"
             >
               <img
-                src="https://images.pexels.com/photos/34288511/pexels-photo-34288511.jpeg"
-                alt="Couple"
+                src="/PRE/pre-1.jpeg"
+                alt="Piyumi & Ruchira"
                 className="w-full h-full object-cover object-top"
               />
               {/* Soft white gradient at the bottom to blend into the text section */}
@@ -342,11 +340,11 @@ export default function StoryApp() {
               className="flex-1 w-full flex flex-col items-center justify-start text-center pt-2 pb-12 z-20 bg-white"
             >
               <h2 className="serif text-6xl md:text-7xl text-[#4A148C] font-normal leading-none mt-4">
-                OSHADINI
+                PIYUMI
               </h2>
               <span className="script text-5xl md:text-6xl text-[#4A148C] my-1 opacity-80">and</span>
               <h2 className="serif text-6xl md:text-7xl text-[#4A148C] font-normal leading-none">
-                CHANUPA
+                RUCHIRA
               </h2>
             </motion.div>
           </div>
@@ -359,8 +357,8 @@ export default function StoryApp() {
             {/* Header Image */}
             <div className="w-full h-[45dvh] relative shrink-0">
               <img
-                src="https://images.pexels.com/photos/18656259/pexels-photo-18656259.jpeg"
-                alt="Couple Story 1"
+                src="/PRE/pre-3.jpeg"
+                alt="Our Story - Piyumi & Ruchira"
                 className="w-full h-full object-cover rounded-b-[2.5rem] shadow-sm"
               />
               <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-[#FDF4F7] to-transparent"></div>
@@ -372,27 +370,46 @@ export default function StoryApp() {
               transition={{ duration: 1 }}
               className="w-full max-w-sm px-6 pt-6 flex flex-col items-center text-center"
             >
-              <h2 className="script text-7xl text-[#D4AF37] mb-8">Our Story</h2>
+              <h2 className="script text-5xl md:text-6xl text-[#D4AF37] mb-6">Our Story</h2>
 
-              <div className="space-y-6 text-[#4A148C] text-[17px] md:text-[18px] leading-relaxed font-serif px-2">
-                <p className="text-center font-medium text-[#D81B60] text-base uppercase tracking-widest mb-10">
-                  Began in Colombo, Sri Lanka<br />2018
+              <div className="space-y-6 text-[#4A148C] text-[14px] md:text-[15px] leading-relaxed font-serif px-2">
+                <p className="text-center font-medium text-[#D81B60] text-[11px] uppercase tracking-widest mb-6">
+                  A love story written in the stars
                 </p>
 
-                <p className="italic text-center text-[20px] leading-loose text-[#D4AF37]">
-                  "Two souls with but a single thought,<br/>two hearts that beat as one."
+                <p className="italic text-center text-[16px] leading-loose text-[#D4AF37]">
+                  "Two souls destined to be one,<br/>two hearts forever entwined."
                 </p>
 
-                <p className="text-center mt-8">
-                  A chance meeting sparked a friendship that gracefully deepened into the love of a lifetime.
+                <div className="flex items-center justify-center gap-3 my-8 relative">
+                  <motion.div 
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 1 }}
+                    className="w-[120px] h-[160px] md:w-[140px] md:h-[180px] rounded-t-[3rem] rounded-bl-[3rem] overflow-hidden shadow-md border-4 border-white"
+                  >
+                    <img src="/PRE/pre-2.jpeg" alt="Story image 1" className="w-full h-full object-cover" />
+                  </motion.div>
+                  <motion.div 
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 1, delay: 0.2 }}
+                    className="w-[120px] h-[160px] md:w-[140px] md:h-[180px] rounded-b-[3rem] rounded-tr-[3rem] overflow-hidden shadow-md border-4 border-white mt-12"
+                  >
+                    <img src="/PRE/pre-4.jpeg" alt="Story image 2" className="w-full h-full object-cover" />
+                  </motion.div>
+                </div>
+
+                <p className="text-center mt-6">
+                  What began as a beautiful connection has blossomed into a love story we cherish every day.
                 </p>
 
-                <p className="text-[#4A148C] font-bold text-center italic mt-10 text-[16px] tracking-wide">
-                  Join us as we step into our forever.
+                <p className="text-[#4A148C] font-bold text-center italic mt-8 text-[13px] tracking-wide">
+                  Join us as we begin our forever together.
                 </p>
               </div>
 
-              <div className="mt-12 flex items-center justify-center gap-3 w-1/2">
+              <div className="mt-10 flex items-center justify-center gap-3 w-1/2">
                 <div className="h-px bg-[#F48FB1] flex-1"></div>
                 <div className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37]"></div>
                 <div className="h-px bg-[#F48FB1] flex-1"></div>
@@ -426,11 +443,11 @@ export default function StoryApp() {
                   <div className="absolute left-1/2 top-0 bottom-0 w-px bg-zinc-300 -translate-x-1/2" />
 
                   {[
-                    { time: "9:00 AM", title: "GUEST ARRIVAL" },
-                    { time: "9:30 AM", title: "PORUWA CEREMONY", sub: "Main Hall" },
-                    { time: "12:30 PM", title: "WEDDING RECEPTION", sub: "Grand Ballroom" },
-                    { time: "1:30 PM", title: "LUNCH BUFFET" },
-                    { time: "4:00 PM", title: "GOING AWAY" },
+                    { time: "8:00 AM", title: "GUEST ARRIVAL" },
+                    { time: "8:15 AM", title: "PORUWA CEREMONY", sub: "King's Court" },
+                    { time: "10:00 AM", title: "WEDDING RECEPTION", sub: "King's Court" },
+                    { time: "12:00 PM", title: "LUNCH BUFFET" },
+                    { time: "3:30 PM", title: "GOING AWAY" },
                   ].map((item, idx) => (
                     <div key={idx} className="relative z-10 bg-white/70 backdrop-blur-sm p-4 rounded-xl border border-white shadow-sm w-[85%] mx-auto">
                       <p className="text-[13px] font-bold text-[#D81B60] mb-1">{item.time}</p>
@@ -460,18 +477,18 @@ export default function StoryApp() {
                   <h2 className="serif text-4xl tracking-[0.2em] text-[#4A148C] font-medium uppercase mb-6">Details</h2>
 
                   <div className="w-full h-32 rounded-xl overflow-hidden mb-4 relative">
-                    <img src="https://s3-us-west-2.amazonaws.com/handel-architects/images/_regular/00.849.07.001.jpg" className="w-full h-full object-cover" alt="Venue" />
+                    <img src="https://www.cinnamonhotels.com/assets/images/cinnamonlakeside/kings-court-banner.jpg" className="w-full h-full object-cover" alt="King's Court Cinnamon Lakeside" />
                   </div>
 
                   <div className="bg-[#F48FB1] py-2 rounded-t-xl mb-1">
                     <p className="text-[12px] uppercase tracking-[0.2em] font-bold text-[#D81B60]">Location</p>
                   </div>
                   <div className="bg-white py-4 rounded-b-xl shadow-sm border border-white mb-4 flex flex-col items-center">
-                    <p className="text-[12px] uppercase font-bold text-[#4A148C]">Shangri-La</p>
-                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Colombo</p>
+                    <p className="text-[12px] uppercase font-bold text-[#4A148C]">King's Court</p>
+                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Cinnamon Lakeside</p>
                     <p className="text-[10px] uppercase tracking-widest text-zinc-500 mb-3">Colombo, Sri Lanka</p>
                     <a
-                      href="https://maps.app.goo.gl/RU45U8xe2TiZsmL98"
+                      href="https://maps.app.goo.gl/2DS8tESSoTszky5n7"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1 px-3 py-1.5 bg-[#F48FB1] text-[#4A148C] rounded-full text-[10px] uppercase tracking-widest font-bold hover:bg-[#D4AF37] transition-colors"
@@ -508,7 +525,7 @@ export default function StoryApp() {
                 </div>
 
                 <p className="serif text-[13px] sm:text-[15px] uppercase tracking-[0.15em] font-bold text-[#4A148C] mb-6">
-                  BY NOVEMBER 12, 2026
+                  BY NOVEMBER 1, 2026
                 </p>
 
                 <div className="w-full">
@@ -546,6 +563,9 @@ export default function StoryApp() {
                   <WishesForm />
                 </div>
               </motion.div>
+              <p className="text-[#4A148C] text-xs mt-6 font-sans tracking-wider text-center px-4">
+                Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-[#D81B60] hover:text-[#D4AF37] underline font-bold transition-colors" href="https://wa.me/94707819074">invitemint</a>
+              </p>
             </div>
           </div>
         </section>
