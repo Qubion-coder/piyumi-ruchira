@@ -477,7 +477,7 @@ export default function StoryApp() {
                   <h2 className="serif text-4xl tracking-[0.2em] text-[#4A148C] font-medium uppercase mb-6">Details</h2>
 
                   <div className="w-full h-32 rounded-xl overflow-hidden mb-4 relative">
-                    <img src="https://www.cinnamonhotels.com/assets/images/cinnamonlakeside/kings-court-banner.jpg" className="w-full h-full object-cover" alt="King's Court Cinnamon Lakeside" />
+                    <img src="https://q-xx.bstatic.com/xdata/images/hotel/max500/647785418.jpg?k=d38abebc82b022305b1f621bab8e6c76e2c198397966c64f70a7c38083cd80b1&o=" className="w-full h-full object-cover" alt="King's Court Cinnamon Lakeside" />
                   </div>
 
                   <div className="bg-[#F48FB1] py-2 rounded-t-xl mb-1">
