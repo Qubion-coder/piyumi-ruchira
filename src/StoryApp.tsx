@@ -359,7 +359,7 @@ export default function StoryApp() {
               <img
                 src="/PRE/pre-3.jpeg"
                 alt="Our Story - Piyumi & Ruchira"
-                className="w-full h-full object-cover rounded-b-[2.5rem] shadow-sm"
+                className="w-full h-full object-cover object-top rounded-b-[2.5rem] shadow-sm"
               />
               <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-[#FDF4F7] to-transparent"></div>
             </div>
